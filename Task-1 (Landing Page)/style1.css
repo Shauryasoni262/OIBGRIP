@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: times new roman;
+}    
+nav{
+    background-color: #222; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+h2{
+    position: absolute;
+   top:20px;
+   left:80px;
+    color: #fff;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+   padding: 0 5px;
+  justify-content: flex-end;
+}
+a{
+     font-size: 15px;
+     color: #fff;
+    text-decoration: none;
+}
+.Logo{
+    height: 50px;
+}        
+.back{
+    width:100%;
+    height:80%;
+}
+.dog{
+    position:absolute;
+    top:200px;
+    right:50px;
+    color:white;
+    font-size: 35px;
+    
+}
+.P2{
+position: absolute;
+top:240px;
+right:0px;
+    background-image:linear-gradient(to right,red 62%,#0081ff 50%);
+    -webkit-background-clip:text;
+    color: transparent;
+    font-size: 58px;
+    font-weight: 1000;
+}
+
+.list1{
+font-size: 20px;
+    position:absolute;
+    top:400px;
+    right:50px;
+    color:white;
+    width:39%;
+}
+.P4{
+    position: relative;
+    right:-85px;
+    font-weight: bolder;
+}
+.yee{
+position: relative;
+right:-120px;
+    border:none;
+    background: green;
+    border-radius:10px;
+    color:white;
+    padding:10px;
+}
+.pick{
+color:white;
+background-color:black ;
+    text-align: center;
+    padding:30px;
+    font-size:50px ;
+    font-weight:bold;
+}
+.pizza1{
+position: relative;
+top: 100px;
+    height: 50%;
+    width: 50%;
+    transform: rotate(35deg);
+}
+.pizzaP1{
+    position: absolute;
+    right:50px;
+    top:30em;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;        
+}
+.pizzaP2{
+position: absolute;
+right:30px;
+top: 60em;
+    width:500px;
+   
+}
+.pizza2{
+position: relative;
+top: 350px;
+left: 450px;
+    height: 50%;
+    width: 50%;
+    transform: rotate(330deg);
+}
+.pizzaP3{
+    position: absolute;
+    left:50px;
+    top:49em;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline; 
+    }
+.pizzaP4{
+position: absolute;
+left:50px;
+top: 96em;
+  width:400px;   
+} 
+
+
+.pizza3{
+position: relative;
+top: 630px;
+    height: 55%;
+    width: 55%;
+    transform: rotate(35deg);
+}
+.pizzaP5{
+    position: absolute;
+    right:350px;
+    top:67em;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;        
+}
+.pizzaP6{
+position: absolute;
+right:35px;
+top: 130em;
+    width:500px;
+   
+}
+.map{
+    width:100%;
+    height:100%;
+    position:relative;
+    top:45em;
+    background-color: #ffd5df;
+    padding-top: 110px;
+    z-index: -1;
+    }
+    .map1{
+        position: absolute;
+        top:67em;
+        left:19%;
+        text-decoration: Underline;
+        font-weight: bolder;
+    }
+    .numbers{
+    position: absolute;
+        top:86em;
+        left:850px;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    
+@media(max-width:768px){
+    nav{   
+      width: 100%; 
+}
+.dog{
+    font-size: 25px;    
+}
+.P2{
+top:230px;  
+font-size: 43px;    
+}
+.list1{
+    font-size: 20px;   
+    top:360px;
+    right:35px;   
+    width:45%;
+}
+.P4{
+    position: relative;
+    right:-95px;    
+}
+.yee{
+right:-140px;       
+}
+.pizza1{
+    top: 80px;
+    height: 45%;
+    width: 45%;    
+}
+
+.pizzaP1{    
+    right:30px;
+    top:31em;
+    font-size: 25px;      
+}
+.pizzaP2{
+right:20px;
+top: 51.5em;
+    width:400px;   
+}
+
+.pizza2{
+top: 450px;
+left: 40px;
+    height: 45%;
+    width: 45%;
+    
+}
+.pizzaP3{    
+    left:50px;
+    top:51em;   
+    font-size: 23px;    
+    }
+.pizzaP4{
+position: absolute;
+left:50px;
+top: 76em;
+  width:350px;   
+} 
+
+
+.pizza3{
+    top: 560px;
+    height: 50%;
+    width: 50%;   
+}
+.pizzaP5{    
+    right:200px;
+    top:49em;  
+    font-size: 30px;         
+}
+.pizzaP6{
+right:35px;
+top: 95em;
+    width:350px;   
+}
+.map{
+    width:100%;
+    height:100%;
+    top:40em;   
+    padding-top: 80px;
+    
+    }
+    .map1{        
+        top:53em;
+        left:14%;       
+    }
+    .numbers{
+        top:75em;
+        left:680px;        
+        font-size: 25px;
+    }
+}
